@@ -1,0 +1,15 @@
+*{
+    color: black;
+}
+input {
+    border: solid 1px black;
+    width: 100%
+}
+@media (max-width: 600px){
+    input {
+        border: solid 1px rgb(255, 0, 0);
+        width: 100%
+    }   
+}
+.papa {
+}
