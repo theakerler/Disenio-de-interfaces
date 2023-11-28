@@ -3,10 +3,19 @@
 }
 
 .global-header{
-    border: 1px solid salmon;
+    width: 100%;
+    border: 4px solid salmon;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.global_header-div{
+    border: 4px solid salmon;
+
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .global_header-line{
     margin:20px ;
@@ -16,16 +25,24 @@
 }
 
 .global-body{
+    width: 100%;
     border: 1px solid rgb(61, 206, 71);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 20px;
 }
+.global_body-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .global_body-h2{
+    border: 4px solid salmon;
+    width: 50%;
     text-align: center;
     border: 1px solid rgb(61, 206, 71);
-    width: 100%;
+    width: 50%;
 }
 .global_body-inputs{
     border: 1px solid rgb(61, 206, 71);
@@ -70,7 +87,9 @@
 
 }
 .global-footer{
+    width: 100%;
     border: 1px solid rgb(35, 36, 35);
+    
 }
 .global_footer-h2{
     text-align: center;
@@ -78,6 +97,23 @@
 .global-footer-div_h3{
     text-align: center;
 }
+.div{
+    border: 4px solid rgb(35, 36, 35);
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: end;
+}
 input,select,textarea{
     border: 1px solid rgb(35, 36, 35);
+    background-color: wheat;
+}
+img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+h2,h3 {
+    color: rgb(0, 0, 0);
 }
