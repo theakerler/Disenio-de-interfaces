@@ -4,53 +4,66 @@
 
 .global-header{
     width: 100%;
-    border: 4px solid salmon;
     display: flex;
-    justify-content: center;
+    justify-content: center;    
     align-items: center;
 }
 .global_header-div{
-    border: 4px solid salmon;
-
-    width: 50%;
+    backdrop-filter: blur(10px);
+    width: 55%;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-left: 3px solid rgb(248, 242, 223);
+    border-right:  3px solid rgb(248, 242, 223);
+    border-top: 3px solid rgb(248, 242, 223);
 }
 .global_header-line{
-    margin:20px ;
-    width: 100px;
-    height: 1px;
-    border: 1px solid salmon;
+    margin: 20px 15px 20px 5px ;
+    width: 30%;
+    background-color: rgb(220, 205, 39);
+    height: 2px;
+}
+.global_header-h2{
+    font-family: 'Amargo', serif;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
 }
 
 .global-body{
     width: 100%;
-    border: 1px solid rgb(61, 206, 71);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .global_body-div{
-    width: 100%;
+    width: 55%;
     display: flex;
     justify-content: center;
+    border-left: 3px solid rgb(248, 242, 223);
+    border-right:  3px solid rgb(248, 242, 223);
 }
 .global_body-h2{
-    border: 4px solid salmon;
-    width: 50%;
+    backdrop-filter: blur(10px);
     text-align: center;
-    border: 1px solid rgb(61, 206, 71);
-    width: 50%;
+    width: 100%;
+    font-family: 'Amargo', serif;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
 }
 .global_body-inputs{
-    border: 1px solid rgb(61, 206, 71);
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
+    width: 55%;
+    border-bottom: 3px solid rgb(248, 242, 223);
+    border-left: 3px solid rgb(248, 242, 223);
+    border-right:  3px solid rgb(248, 242, 223);
 }
 .global_body-subinputs{
+    backdrop-filter: blur(10px);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -70,7 +83,6 @@
 }
 .global_body-subinputs-div{
     width: 82.5%;
-    border: 1px solid rgb(35, 36, 35);
     margin-bottom: 20px;    
     
 }
@@ -82,20 +94,30 @@
 .global_body-subinputs-button{
     width: 100%;
     height: 40px;
-    border-radius: 20px;
+    border-radius: 1px;
     width: 82.5%;
+    margin-bottom: 15px;
 
 }
 .global-footer{
+    border-top: 1px solid wheat;
+    backdrop-filter: blur(10px);
     width: 100%;
-    border: 1px solid rgb(35, 36, 35);
     
 }
 .global_footer-h2{
+    padding: 5px 0 3px 0;
     text-align: center;
+    font-family: 'Amargo', serif;
+    font-size: 15px;
+    color: white;
 }
 .global-footer-div_h3{
+    padding: 2px;
+    font-family: 'Amargo', serif;
+    color: white;
     text-align: center;
+
 }
 .div{
     border: 4px solid rgb(35, 36, 35);
