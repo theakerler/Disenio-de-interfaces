@@ -1,0 +1,81 @@
+body{
+    background-image: url(../img/fondo-menu.jpg);
+    background-size: cover;
+    background-color: rgb(6, 6, 6);
+    color: #e8d4d4;
+    width: 100%;
+    font-family: 'Hedvig Letters Serif', serif;
+}
+
+#indicevalornutri {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.626);
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Hedvig Letters Serif', serif;
+}
+#indicevalornutri::before{
+    content:'🍽 ';
+}
+#indicevalornutri::after{
+    content:' 🍽';
+}
+
+#postre::before{
+    content:'🥧 ';
+}
+#postre::after{
+    content: ' 🥮';
+}
+
+#platos::before{
+    content: '🥗 ';
+}
+#platos::after{
+    content: ' 👨‍🍳';
+}
+
+#sopas::before{
+    content: '🥘 ';
+}
+#sopas::after{
+    content: ' 🍲';
+}
+
+
+
+.subnutri {
+    text-align: center;
+    font-family: 'Hedvig Letters Serif', serif;
+    background: rgba(0, 0, 0, 0.486);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.nutri {
+    text-align: center; 
+    color: black;
+    font-weight: 600;
+    transition: all ease 300ms;
+    font-family: 'Hedvig Letters Serif', serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nutri:hover{
+    scale: 1.5; 
+    color:rgb(255, 234, 0);
+}
+article {
+    padding: 20px;
+    width: 100%;
+}
+.galeria {
+    
+}
