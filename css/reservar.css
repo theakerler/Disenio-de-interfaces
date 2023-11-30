@@ -1,0 +1,13 @@
+*{
+    font-family: 'Hedvig Letters Serif', serif;
+}
+.eventos{
+    height: 4000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* align-content: start; */
+    background-image: url(../img/maderafondo.jpg);
+    background-size: cover;
+} 
