@@ -23,7 +23,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 50px
 }
 
 .eventos .global_header-nav{
@@ -40,21 +39,23 @@
 .global-header{
     width: 100%;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    margin-bottom: 10px; 
 }
 .global_header-div{
-    width: 55%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-content: center;
+
 }
 .global_header-line{
-    margin: 20px 15px 20px 5px ;
-    width: 30%;
-    background-color: rgb(220, 205, 39);
+    align-self: center;
+    width: 240px;
     height: 2px;
+    border: 1px solid white;
 }
 .global_header-h2{
+    width: 60%;
+    padding: 0 10px;
     font-family: 'Amargo', serif;
     color: white;
     font-size: 30px;
@@ -63,25 +64,20 @@
 }
 
 .global-body{
-
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 .global_body-div{
-    width: 55%;
     display: flex;
+    width: 100%;
     justify-content: center;
-    align-items: center;
 }
 .global_body-h2{
-    height: 30px;
-    text-align: center;
-    width: 100%;
-    font-family: 'Amargo', serif;
+    margin-bottom: 10px;
     color: white;
-    font-size: 20px;
+
 }
 .global_body-inputs{
     display: flex;
@@ -139,11 +135,6 @@
 .global_body-subinputs-textarea:focus{
     transition: all 1s ease-in-out;
 }
-
-
-
-
-
 
 h2,h3 {
     color: rgb(0, 0, 0);
