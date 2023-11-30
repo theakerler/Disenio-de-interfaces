@@ -93,7 +93,7 @@ form , input, textarea, select , button , label{
     background-color: transparent;
     color:inherit;
     display: block;
-    /* (Opcional) */ appearance: none;
+    /* (Opcional) appearance: none; */
 }
 /* Reseteamos las tablas */
 table , tr , td {

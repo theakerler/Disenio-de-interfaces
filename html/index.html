@@ -3,13 +3,32 @@
 <head>git 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <h2></h2>
-    <h3>gosad</h3>
-    <p>dsadsad</p>
-    <h1>Lorem ipsum dolor sitdasdsa amet consectetur adipisicing elit. Itaque minus blanditiis natus, id quae, suscipit labore ex vitae at veritatis est voluptates soluta earum? Quibusdam reiciendis enim sed optio ab.</h1>
-    <h1>Prueba de h1 de Alvaro</h1>
+    <form>
+        <fieldset>
+          <legend>Please select your preferred contact method:</legend>
+          <div>
+            <input
+              type="radio"
+              id="contactChoice1"
+              name="contact"
+              value="email"
+              checked />
+            <label for="contactChoice1">Email</label>
+      
+            <input type="radio" id="contactChoice2" name="contact" value="phone" />
+            <label for="contactChoice2">Phone</label>
+      
+            <input type="radio" id="contactChoice3" name="contact" value="mail" />
+            <label for="contactChoice3">Mail</label>
+          </div>
+          <div>
+            <button type="submit">Submit</button>
+          </div>
+        </fieldset>
+      </form>
 </body>
 </html>
