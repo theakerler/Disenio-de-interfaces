@@ -2,6 +2,12 @@
     color: rgb(255, 255, 255);
     font-family: 'Hedvig Letters Serif', serif;
 }
+.img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
 .div{
     height: 100vh;
     display: flex;
@@ -83,7 +89,7 @@ nav {
 }
 .nav-item:hover , .nav-item a:hover{
     background-color: #f17547;
-    color: black;
+    font-weight: 600;
 }
 /* Presentación de platos */
 .presentation {
@@ -131,7 +137,6 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 20px;
 }
 .global_body-div{
     width: 55%;
@@ -191,7 +196,7 @@ height: 30px;
     border-radius: 10px;
     width: 82.5%;
     background-color: #1e1e1e;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
 }
 
 .global_body-subinputs-textarea,
@@ -240,12 +245,7 @@ height: 30px;
 
 
 
-.img{
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-}
+
 h2,h3 {
     color: rgb(0, 0, 0);
 }
