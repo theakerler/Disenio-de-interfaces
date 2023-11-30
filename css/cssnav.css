@@ -8,7 +8,7 @@ nav {
 }
 nav .navbar {
     display: flex;
-    width: 50%;
+    width: 65%;
     height: 100%;
     align-items: center;
     justify-content:space-evenly;
@@ -28,7 +28,23 @@ nav .nav-item a {
     color:black;
     font-size: 18px;
 }
-nav .nav-item:hover,.nav-item a:hover {
+nav .nav-item:hover {
     background-color: #f9d055;
+}
+nav .nav-item a:hover {
     font-weight: 600;
+}
+
+/*Responsive design*/
+@media screen and (max-width: 800px) {
+    nav .navbar {
+        display: flex;
+        width: 552.5px;
+        height: 100%;
+        align-items: center;
+        justify-content:space-evenly;
+    }
+    nav .nav-item a {
+        font-size: 16px;
+    }
 }
