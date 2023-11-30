@@ -1,10 +1,9 @@
 * {
     font-family: 'Hedvig Letters Serif', serif;
+    color: black;
 }
 body {
     background-color: #1f1f1f;
-    width: 100vw;
-    min-height: 100vh;
 }
 /* Cabecera */
 header {
@@ -58,6 +57,7 @@ nav {
     align-items: center;
     text-align: center;
     color:black;
+    font-size: 18px;
 }
 .nav-item:hover {
     background-color: #f17547;
@@ -91,7 +91,7 @@ nav {
     width: 100%;
     height: 100%;
 }
-.img-wrapper img {
+img {
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -120,4 +120,45 @@ nav {
 }
 .presentation-card h2{
     font-size: calc(50px/1.618);
+}
+/* Secciones */
+.section {
+    display: grid;
+    width: 100%;
+    height: 400px;
+    margin: 45px 0;
+    gap: 45px;
+}
+.informacion {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.informacion h2 {
+    font-size: 36px;
+}
+.informacion p {
+    font-size: 18px;
+}
+/* Secciones historia*/
+.historia {
+    grid-template-columns: 0.7fr 1fr;
+}
+.section .informacion {
+    background-color: #f17547;
+}
+.section .img-wrapper {
+    height: 400px;
+    width: 100%;
+}
+/* Secciones platos*/
+.platillos {
+    grid-template-columns: 1fr 0.7fr;
+}
+.platillos .informacion {
+    background-color: #DBB957;
 }
