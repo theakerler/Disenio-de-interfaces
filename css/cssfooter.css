@@ -1,0 +1,31 @@
+.global-footer{
+    border-top: 1px solid rgb(255, 255, 255);
+    background-color: rgb(40, 40, 40);
+    width: 100%;
+    height: 12%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+.global_footer-h2{
+    width: 100%;
+    padding: 5px 0 3px 0;
+    text-align: center;
+    font-family: 'Amargo', serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+.global_footer-div{
+    width: 100%;
+}
+.global-footer-div_h3{
+    width: 100%;
+    padding: 2px;
+    font-family: 'Amargo', serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.global-footer{
+    align-self: self-end;
+}
