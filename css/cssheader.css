@@ -1,9 +1,10 @@
 header {
+
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    
+    font-family: 'Hedvig Letters Serif', serif;
     background-color: #373737;
     padding: 10px;
 }
