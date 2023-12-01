@@ -108,7 +108,9 @@ article {
         flex: 100%;
     }
 }
-
+.pic {
+    transition: all ease 300ms;
+}
 .pic:hover{
     scale: 1.05;
     color: rgba(0, 0, 0, 0.596)
