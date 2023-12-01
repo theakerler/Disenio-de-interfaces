@@ -107,7 +107,6 @@
     height: 100px;
     padding: 10px 10px;
     resize: none;
-
 }
 .global_body-subinputs-button{
     font-size: 20px;
@@ -137,8 +136,13 @@
 .global_body-subinputs-textarea:focus{
     transition: all 1s ease-in-out;
 }
+.global_body-subinputs-input:focus,
+.global_body-subinputs-textarea:focus{
+    outline:1px solid #f9d055;
+    
+}
 
-h2,h3 {
+h2,h3{
     color: rgb(0, 0, 0);
 }
 
