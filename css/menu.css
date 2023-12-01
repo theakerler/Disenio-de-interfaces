@@ -76,6 +76,40 @@ article {
     padding: 20px;
     width: 100%;
 }
-.galeria {
-    
+.galeria { 
+    animation-delay: 30ms;
+    background-image:url(../img/fondo\ elegante.jpg);
+    color: rgba(255, 220, 19, 0.959);
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Hedvig Letters Serif', serif;
+}
+.row{
+    flex-wrap: wrap;
+    display: flex;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.747);
+}
+
+.columna{
+    flex:20px;
+    padding: 5px;
+}
+.columna img{
+    margin-top: 10px;
+}
+@media (max-width:800px){
+    .columna{
+        flex: 50%;
+    }
+}
+@media (max-width:600px){
+    .columna{
+        flex: 100%;
+    }
+}
+
+.pic:hover{
+    scale: 1.05;
+    color: rgba(0, 0, 0, 0.596)
 }
