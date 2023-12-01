@@ -2,31 +2,39 @@
     font-family: 'Hedvig Letters Serif', serif;
 }
 .eventos{
-    
     height: 4000px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    /* align-content: start; */
     background-image: url(../img/maderafondo.jpg);
     position: absolute;
     background-size: cover;
     z-index: -1;
 } 
+.cja-grande{
+    border: 1px solid salmon;
+    display: flex;
+    flex-wrap: wrap;
+}
 .caja{
+    border: 1px solid salmon;
+
+    width: 100%;
     display: flex;
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
-    border: 1px solid salmon;
 }
 .img-01{
+    border: 1px solid salmon;
     margin: 20px;
     width: 500px;
     height: 500px;
 }
 .div-context{
+    border: 1px solid salmon;
+
     width: 30%;
     margin: 20px;
 }
