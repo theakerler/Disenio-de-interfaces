@@ -148,8 +148,6 @@ img {
     .platillos {
         grid-template-columns: 1fr 0fr;
     }
-}
-@media screen and (max-width: 1000px) {
     .informacion h2 {
         font-size: calc(36px/1.1);
     }
